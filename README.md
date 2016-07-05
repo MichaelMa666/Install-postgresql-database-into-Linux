@@ -10,7 +10,7 @@
 <p>cmd: rpm –ivh postgresql93-server-9.3.13-1PGDG.rhel6.x86_64.rpm</p>
 <p>cmd: rpm –ivh postgresql93-contrib-9.3.13-1PGDG.rhel6.x86_64.rpm (No necessary, an assist package) </p>
 <a>I found the fourth is failed in my situation. But it still run smoothly. I think it should be an assist package.</a>
-<h2>3.Configure Service<h2>
+<h2>3.Configure Service</h2>
 <p>cmd: service postgresql-9.3 initdb</p>
 <p>cmd: chkconfig postgresql-9.3 on</p>
 <p>Add /usr/pgsql-9.3/bin to head of PATH</p>
