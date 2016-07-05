@@ -16,10 +16,10 @@
 <p>Add /usr/pgsql-9.3/bin to head of PATH</p>
 <p>cmd: vi /root/.bash_profile</p>
 <p>modify the variable PATH like this:</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;before modify: PATH=$PATH:$HOME/bin</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;after modify: PATH=/usr/pgsql-9.3/bin:$PATH:$HOME/bin</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;before modifying: PATH=$PATH:$HOME/bin</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;after modifying: PATH=/usr/pgsql-9.3/bin:$PATH:$HOME/bin</p>
 <p>cmd: export PATH=/usr/pgsql-9.3/bin:$PATH</p>
-<h2>4.Change Password<h2>
+<h2>4.Change Password</h2>
 <p>cmd: su postgres</p>
 <p>cmd: psql  </p>
 <p>cmd: \password</p>
